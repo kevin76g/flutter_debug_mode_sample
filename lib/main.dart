@@ -80,10 +80,7 @@ class _MyHomePageState extends State<MyHomePage> {
                   },
                   child: Text(
                     '管理者画面へ',
-                    style: TextStyle(
-                        fontSize: textStyle.fontSize,
-                        fontWeight: textStyle.fontWeight,
-                        color: Colors.blue),
+                    style: textStyle,
                   ))),
         ]),
       ),
